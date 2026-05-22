@@ -6,7 +6,7 @@ pub const WSOL_MINT: Pubkey = pubkey!("So111111111111111111111111111111111111111
 pub const USDC_MINT: Pubkey = pubkey!("EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v");
 
 /// 将不同 Quote 构成的内盘池子抽象成统一参数
-#[derive(Debug, Clone)]
+#[derive(Debug, Clone, Copy)]
 pub struct PumpQuoteConfig {
     pub quote_mint: Pubkey,
     pub max_quote_reserves: u64,
