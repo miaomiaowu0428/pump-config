@@ -5,4 +5,4 @@ edition = "2021"
 
 [dependencies]
 solana-sdk = "=3.0.0"
-utils = { path = "../utils" }
+utils = { git = "https://github.com/miaomiaowu0428/sol-utils.git" }
